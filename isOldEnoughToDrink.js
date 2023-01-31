@@ -10,8 +10,10 @@ console.log(output); // --> true
 function isOldEnoughToDrink(age) {
  if (age >= 21) {
   console.log(true);
+  return age;
 } else {
   console.log(false);
+ return age;
 }
 }
 console.log(isOldEnoughToDrink(20));

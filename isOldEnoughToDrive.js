@@ -10,6 +10,7 @@ console.log(output); // --> true
 function isOldEnoughToDrive(age) {
    if (age >= 16) {
     console.log(true);
+    return age;
    }
   }
 
