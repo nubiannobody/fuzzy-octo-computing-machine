@@ -8,11 +8,11 @@ console.log(output); // --> true
 
 function isGreaterThanTen(num) {
     if (num > 10) {
-      return true;
+      console.log(`Yes, ${num} is greater than 10`);
     } else {
-      return false;
-    }
+      console.log(`No, ${num} is less than 10`);
+    } 
   }
   
-  console.log(isGreaterThanTen(11));
-  console.log(isGreaterThanTen(10));
+  console.log(isGreaterThanTen(3));
+  console.log(isGreaterThanTen(30));

@@ -8,10 +8,11 @@ console.log(output); // --> false
 
 function equalsTen(num) {
     if (num === 10) {
-      return true;
+      console.log(`${num} is equal to 10`);
     } else {
-      return false;
+      console.log(`${num} is not equal to 10`);
     }
     }
     
     console.log(equalsTen(9));
+    console.log(equalsTen(10));

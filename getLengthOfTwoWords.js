@@ -6,8 +6,9 @@ console.log(output); // --> 9
 */
 
 function getLengthOfTwoWords(word1, word2) {
-   let sumOfWordsLenght = word1.length + word2.length;
-   return sumOfWordsLenght;
-  }
-
-  console.log(getLengthOfTwoWords("shrimp", "taco"));
+   let sumOfWordsLength = word1.length + word2.length;
+   console.log("The length of word1 is " + word1.length);
+   console.log("The length of word2 is " + word2.length);
+   console.log("The total length of word1 and word2 is " + sumOfWordsLength);
+}
+console.log(getLengthOfTwoWords("shrimp", "taco"));

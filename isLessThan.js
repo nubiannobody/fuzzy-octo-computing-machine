@@ -7,9 +7,9 @@ console.log(output); // --> true
 
 function isLessThan(num1, num2) {
     if (num2 < num1) {
-      return true;
+      console.log(`${num2} is less than ${num1}`);
     } else {
-      return false;
+      console.log(`${num2} is greater than ${num1}`);
     }
     }
     

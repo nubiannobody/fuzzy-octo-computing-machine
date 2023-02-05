@@ -7,10 +7,11 @@ console.log(output); // --> true
 
 function isLessThan30(num) {
     if (num < 30) {
-      return true;
+      console.log(`Yes, ${num} is less than 30`);
     } else {
-      return false;
+      console.log(`No, ${num} is greater than 30`);
     }
    }
    
    console.log(isLessThan30(29));
+   console.log(isLessThan30(40));
