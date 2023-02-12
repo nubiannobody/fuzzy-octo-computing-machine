@@ -11,3 +11,4 @@ function computeAverageLengthOfWords(word1, word2) {
   }
   
   console.log(computeAverageLengthOfWords("shrimp", "sausage"));
+  console.log(computeAverageLengthOfWords("logic", "computer"));
