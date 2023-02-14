@@ -19,3 +19,13 @@ function getLastElement(array) {
 }
 console.log(getLastElement([])); // undefined
 console.log(getLastElement([5, 4, 3])); // [3]
+
+/*
+function getLastElement(array) {
+    if (array.length === 0) {
+      return undefined;
+    } else {
+      return array[array.length - 1];
+    }
+    }
+*/
