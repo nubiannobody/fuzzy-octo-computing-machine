@@ -9,7 +9,7 @@ console.log(output); // --> 4
 
 function getLastElement(array) {
   
-    let lastElement = array.length - 1
+    let lastElement = array[array.length - 1];
     
     if (array.length === 0) {
       return undefined;
@@ -17,5 +17,5 @@ function getLastElement(array) {
       return lastElement;
     }
 }
-console.log(getLastElement([]));
-console.log(getLastElement([5, 4, 3]));
+console.log(getLastElement([])); // undefined
+console.log(getLastElement([5, 4, 3])); // [3]
